@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(0, 0, 0, 0.936);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.profil{
+    background-color: rgba(41, 38, 38, 0.877); 
+    text-align: center;
+    padding: 15px 25px;
+    height: auto;
+}
+.photo_profil{
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%
+}
+.presentation h1{
+    font-size: 1.2em;
+    margin: 15px 0 5px;
+}
+.presentation p{
+    color: greenyellow;
+    font-size: 0.9rem;
+}
+.liens p{
+    color: gray;
+}
+ul{
+    text-align: center;
+    padding: 0;
+}
+.liens ul li{
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
